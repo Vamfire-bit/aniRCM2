@@ -26,5 +26,5 @@ def serve_react(path):
         return send_from_directory(app.static_folder, 'index.html')
 
 # The following block is not needed for Gunicorn deployment
-if __name__ == '__main__':
-    app.run(debug=False)
+# if __name__ == '__main__':
+#     app.run(host='0.0.0.0', debug=False)
