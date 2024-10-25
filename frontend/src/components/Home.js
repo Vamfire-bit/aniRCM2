@@ -75,9 +75,7 @@ function Home() {
                             <div className="caption-content">
                                 <div className="text-content">
                                     <h2 className="heading-xl sum-2">
-                                        <a href="#" title={anime.title_english} target="_blank" rel="noopener noreferrer">
-                                            {anime.title_english}
-                                        </a>
+                                        {anime.title_english}
                                     </h2>
                                     <div className="film-info">
                                         <span className="item">{anime.year}</span>
